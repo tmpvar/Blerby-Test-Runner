@@ -5,7 +5,7 @@ Introduction
 The blerby test runner is a fairly configurable system, and will become mostly configurable in the following releases up to 1.0. Due to its requirement on being properly configured, it is difficult to explain the differences between the processes while maintaining various contexts without generalizing some of the terms. The following sections are brief descriptions on the basic workflow that the test runner follows.
 Configuration
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="437" height="315" id="viddler_7b7052a5"><param name="movie" value="http://www.viddler.com/player/7b7052a5/" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><embed src="http://www.viddler.com/player/7b7052a5/" width="437" height="315" type="application/x-shockwave-flash" allowScriptAccess="always" allowFullScreen="true" name="viddler_7b7052a5"></embed></object>
+http://www.viddler.com/explore/tmpvar/videos/1/
 
 [ the sound is a bit low, but this should give you a basic gist as to what this thing does ]
 
