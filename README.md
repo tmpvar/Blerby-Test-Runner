@@ -14,7 +14,7 @@ Configuration is the heart of blerby test runner. It controls how tests are dete
 
 Web Front
 --------
-![alt text][1]
+![btr menu][1]
 
 The BTR menu is a simple way to manually run tests, clear all server sided caches, or jump back to the documentation page on this site. When navigating the "Available Tests" you may notice that each item in the tree is a link. This is because you can run the tests below that point by simply clicking on the item. All associated tests will be added to the end of the current test queue. After the tests are run the results will be merged with previous results and displayed.
 
@@ -22,16 +22,16 @@ Runner results are displayed in the following form:
 
   - % success (calculated from passes/total tests)
   - Total Tests (total tests encountered before fatal errors in files)
-  - \# of passes - number of items not in the following categories
-  - \# of errors - fatal errors / warnings / debug messages
-  - \# of failures - assert failures
-  - \# of skipped - number of encountered test cases marked skipped
+  - # of passes - number of items not in the following categories
+  - # of errors - fatal errors / warnings / debug messages
+  - # of failures - assert failures
+  - # of skipped - number of encountered test cases marked skipped
 
 **Note:** the term *encountered* is used due to the nature in which fatal errors stop execution. The runner can only detect tests that have been run.
 
 Detection
 ---------
-![alt text][2]
+![btr detect process][2]
 
 In order for Blerby test runner's javascript to know what tests to run, a detection process must take place.&nbsp; Depending on the configuration the detector will return results every execution or only when there are changes. Detection can also be completed manually using the BTR popup menu in the upper left hand of the runner page. The workflow is as follows:
 
@@ -44,7 +44,7 @@ In order for Blerby test runner's javascript to know what tests to run, a detect
 
 Running
 -------
-![alt text][3]
+![btr run process][3]
 
 The main workhorse of the blerby test runner is the running mechanism. In order to achieve some of the nicities mentioned in the descriptions of this project, it was realized early on that a sort of sandbox / php virtual machine was going to be required. The sandbox allows the test runner to properly run and report on files that contain fatal errors or do not exist at all! The following describes the workflow of the runner process.
 
