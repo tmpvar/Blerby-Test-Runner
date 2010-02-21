@@ -1,15 +1,8 @@
 <?php
- /*******************************************\
-
-	Blerby Components (c) 2008 Sproutware
-
-                 ##LICENSE##
-
-    Author:   Elijah Insua (Feb 9, 2008)
-    Filename: detect.php
-    Package:  package_declaration
-
- \*******************************************/
+/**
+  Copyright 2006-2010, Elijah Insua
+  BSD Licensed (see: LICENCE.txt)
+*/
 
 /**
  * @license    ##LICENSE_URL##

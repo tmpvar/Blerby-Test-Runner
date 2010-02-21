@@ -1,4 +1,10 @@
 <?php
+/**
+  Copyright 2006-2010, Elijah Insua
+  BSD Licensed (see: LICENCE.txt)
+*/
+
+
 error_reporting(E_ALL | E_STRICT | E_WARNING);
 ini_set("memory_limit","64M");
 $start = array_sum(explode(' ', microtime()));
