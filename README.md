@@ -5,7 +5,7 @@ Introduction
 The blerby test runner is a fairly configurable system, and will become mostly configurable in the following releases up to 1.0. Due to its requirement on being properly configured, it is difficult to explain the differences between the processes while maintaining various contexts without generalizing some of the terms. The following sections are brief descriptions on the basic workflow that the test runner follows.
 Configuration
 
-[http://www.viddler.com/explore/tmpvar/videos/1/][video]
+[http://www.viddler.com/explore/tmpvar/videos/1/][4]
 
 [ the sound is a bit low, but this should give you a basic gist as to what this thing does ]
 
@@ -57,4 +57,4 @@ The main workhorse of the blerby test runner is the running mechanism. In order 
   [1]: http://www.blerby.com/Images/image/btr-menu.gif
   [2]: http://www.blerby.com/Images/image/btr--detect-process.gif
   [3]: http://www.blerby.com/Images/image/btr--run-process.gif
-  [video] : http://www.viddler.com/explore/tmpvar/videos/1/
+  [4] : http://www.viddler.com/explore/tmpvar/videos/1/
