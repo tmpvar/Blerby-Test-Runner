@@ -39,6 +39,7 @@ In order for Blerby test runner's javascript to know what tests to run, a detect
  4. Scanners are then executed sequentially, having their results merged.
  5. Results are returned to the user in standard JSON format.
  6. Javascript then processes the results and acts accordingly.
+
 Running
 -------
 ![btr run process][4]
