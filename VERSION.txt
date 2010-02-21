@@ -1,0 +1,3 @@
+Version 0.6
+
+Please see http://www.blerby.com/project/testrunner/changelog for release details.

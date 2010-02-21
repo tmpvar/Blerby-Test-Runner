@@ -1,0 +1,195 @@
+body {
+    font-family: verdana;
+    font-size:11px;
+    padding:0px;
+    margin:0px;   
+}
+.box { 
+    background:#fafafa;
+    border:1px solid #DDD;
+    margin:0px;
+    padding:0px;
+}
+#controls {
+    border-bottom:2px solid #DDD;
+    background:#f0f0f0;
+    height:28px;
+}
+#controls img {
+    float:left;
+    margin-right:60px;
+}
+#controls div { 
+    font-weight:bold;
+    display:inline;
+    font-size:14px;
+    text-align:left;
+    vertical-align:baseline;
+    line-height:28px;
+    padding-right:30px;
+    width:120px;
+}
+
+#controls div span {
+    font-size:18px;
+}
+
+.ulHidden li {
+    display:none;
+}
+
+#currentFileDisplay {
+    width:700px;
+    margin-left:100px;
+    color:#b0b0b0;
+    text-align:right;
+    font-size:14px;
+    overflow:none;
+}
+
+div.popup {    
+    display:none;
+    top:28px;
+    left:0px;
+    position:absolute;
+    z-index:1000;
+    padding:5px;
+    background:#f0f0f0;
+    vertical-align:middle;
+    border:2px solid #DDD;
+    border-right:2px solid #DDD;
+    border-left:none;
+}
+
+.popup ul, .popup li {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.popup li {
+    list-style:none;
+}
+pre.message {
+    font-family:verdana;
+    padding-left:5px;
+    margin:0;
+    font-weight:bold;
+    font-size:14px;
+
+}
+
+h1.results {
+    font-size:14px;
+}
+
+.line {
+    padding:5px;
+    font-size:14px
+}
+
+.result {
+    margin:10px 10px;
+    padding:5px 0px; 
+
+}
+.result img.icon {
+    height:48px;
+    width:47px;
+}
+.errorIcon {
+    background-position:10px;
+    padding: 0px 10px 0px 80px;
+}
+.result .leftBox {
+    float:left;
+    width:50px;
+    margin-top:5px;
+    margin-left:10px;
+}
+.result .rightBox {
+    margin-right:15px;
+    margin-left:80px;
+}
+.result .titleLine {
+   border-bottom:1px solid #CCC;
+   padding-bottom:2px;
+   margin:3px 0px 10px 0px;
+   font-size:14px;
+   color:#999;
+}
+.result .titleLine .line {  
+    font-size:14px;
+    font-weight:bold;
+}
+
+a, a:visited { 
+    font-family:verdana;
+    color:#2B5FA9;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+    border:0px;
+}
+img {
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+
+.filetree li { padding: 0px 5px 0px 5px; font-size:16px; }
+.filetree span.folder, .filetree span.file { padding: 1px 0 1px 22px; }
+.filetree span.folder { background: url(Images/treeview/folder.gif) 0 0 no-repeat; }
+.filetree li.expandable span.folder { background: url(Images/treeview/folder-closed.gif) 0 0 no-repeat; }
+.filetree span.file { background: url(Images/treeview/file.gif) 0 0 no-repeat; }
+
+.treeview, .treeview ul { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+
+.treeview .hitarea {
+    background: url(Images/treeview/treeview-default.gif) -64px -25px no-repeat;
+    height: 16px;
+    width: 16px;
+    margin-left: -16px;
+    float: left;
+    cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+    display: inline;
+    float:none;
+}
+
+.treeview li a {
+    color:#000;
+}
+
+.treeview li li { 
+    margin: 0;
+    padding: 3px 0pt 3px 16px;
+}
+
+.treeview a.selected {
+    background-color: #eee;
+}
+
+
+
+.treeview .hover, .popup a:hover { color: red; cursor: pointer; }
+
+
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(Images/treeview/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+.treeview li a:hover { cursor: pointer; }
