@@ -22,10 +22,10 @@ Runner results are displayed in the following form:
 
   - % success (calculated from passes/total tests)
   - Total Tests (total tests encountered before fatal errors in files)
-  - # of passes - number of items not in the following categories
-  - # of errors - fatal errors / warnings / debug messages
-  - # of failures - assert failures
-  - # of skipped - number of encountered test cases marked skipped
+  - \# of passes - number of items not in the following categories
+  - \# of errors - fatal errors / warnings / debug messages
+  - \# of failures - assert failures
+  - \# of skipped - number of encountered test cases marked skipped
 
 **Note:** the term *encountered* is used due to the nature in which fatal errors stop execution. The runner can only detect tests that have been run.
 
