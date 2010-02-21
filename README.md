@@ -4,6 +4,11 @@ Introduction
 ------------
 The blerby test runner is a fairly configurable system, and will become mostly configurable in the following releases up to 1.0. Due to its requirement on being properly configured, it is difficult to explain the differences between the processes while maintaining various contexts without generalizing some of the terms. The following sections are brief descriptions on the basic workflow that the test runner follows.
 Configuration
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="437" height="315" id="viddler_7b7052a5"><param name="movie" value="http://www.viddler.com/player/7b7052a5/" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><embed src="http://www.viddler.com/player/7b7052a5/" width="437" height="315" type="application/x-shockwave-flash" allowScriptAccess="always" allowFullScreen="true" name="viddler_7b7052a5"></embed></object>
+
+[ the sound is a bit low, but this should give you a basic gist as to what this thing does ]
+
 -------------
 Configuration is the heart of blerby test runner. It controls how tests are detected, when they are detected, what tests are allowed to be run, how to run the tests, how tests are connected to source code, and last but not least how file updates are tracked. Due to the highly flexible nature of the configuration it would take too much room on this page to properly describe every aspect and combination of allowed configuration. The following is a list of resources in which you will find helpful in getting your project under testing.
 Web Front
